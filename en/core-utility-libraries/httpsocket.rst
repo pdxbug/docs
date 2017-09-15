@@ -275,7 +275,7 @@ Downloading the results
 
 HttpSocket has a new method called `setContentResource()`. By setting a resource
 with this method, the content will be written to this resource, using
-`fwrite()`. To you download a file, you can do::
+`fwrite()`. To download a file, you can do::
 
     App::uses('HttpSocket', 'Network/Http');
 
